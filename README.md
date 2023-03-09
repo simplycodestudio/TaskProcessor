@@ -22,13 +22,13 @@ thread.
 
 ## How to start
 
-<h4>1. Perform ```mvn clean package```
-<h4>2. Perform ```docker build -t taskprocessor .```
-<h4>3. Perform ```docker compose up```
+<h4>1. Perform `mvn clean package`
+<h4>2. Perform `docker build -t taskprocessor .`
+<h4>3. Perform `docker compose up`
 
 ## or
 
-<h4>Use ```startup.sh```
+<h4>Use `startup.sh`
 
 ## Used libraries
 
@@ -41,7 +41,7 @@ thread.
 
 ## Summary
 
-<h4>Due to the fact that the application is essentially small, it was decided to use the ```READ_UNCOMMITED``` isolation
+<h4>Due to the fact that the application is essentially small, it was decided to use the `READ_UNCOMMITED` isolation
 level.
 <br>The data recorded during the transaction is not information affecting the final result of the task, so the possible
 occurrence of phantom reads should not be a problem.
