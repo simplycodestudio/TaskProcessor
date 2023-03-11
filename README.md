@@ -3,7 +3,7 @@
 <h6>This application is designed to provide a simple and reliable way to process asynchronous tasks. It allows for the
 execution of time-consuming tasks without blocking the main thread and ensures that they are performed in a background
 thread.
-<h6>Application is working with H2 database. Application has other instance for test case.
+<h6>Application is working with H2 database. Application has another instance for test case.
 
 ## Features
 
@@ -21,6 +21,8 @@ thread.
 <h3>http://localhost:8080/swagger-ui/
 
 ## How to start
+
+Application requires java 17. It's also provided in docker image.
 
 <h4>1. Perform `mvn clean package`
 <h4>2. Perform `docker build -t taskprocessor .`
